@@ -1,0 +1,3 @@
+[submodule "cld"]
+	path = cld
+	url = https://github.com/Painkilla/VU-389.064-Wellenausbreitung-cld.git
