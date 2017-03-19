@@ -1,0 +1,12 @@
+\begin{question}[section=13,name={Mean Effektive Gain},difficulty=,quantity=,type=thr,tags={20131024,20130724}]
+	Was ist der Mean Effektive Gain und in welchem Zusammenhang wird er verwendet?
+	
+	%\\ \textbf{Hinweis:}\\
+	
+\end{question}
+\begin{solution}
+	Wenn mehrere Wellen auf die Antenne einfallen (z.B. im Mobilfunk), kann nicht mehr der ursprüngliche Gewinn für HEW verwendet werden. Die Gewinndefinition wird mit Wahrscheinlichkeitsverteilung p($\theta,\varphi$) der HEW über alle möglichen Empfangsrichtungen zu einem richtungsabhängigen Gewinn erweitert. MEG kommt vorallem im Mobilfunk zur Anwendung. Im Pegelplan wird der ideale Gewinn der Handy-Antenne durch den MEG ersetzt. Ein typischerweise liegt der Wert bei ca. -10dBi, welcher den Effekt der Mehrwegeausbreitung in Kombination mit der Handy-Antenne, Hand, Kopf und Schulter des Benützers vereint.
+	\begin{equation}
+		MEG= \int \limits_{4\pi} G(\vartheta,\varphi) p(\vartheta,\varphi) d\Omega
+	\end{equation}
+\end{solution}

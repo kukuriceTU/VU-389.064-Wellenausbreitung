@@ -1,0 +1,86 @@
+\documentclass[paper=a4, fontsize=12pt, parskip]{scrartcl}
+\usepackage{upgreek}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\usepackage{microtype}%mirotypografieverbesserungen
+\usepackage{graphicx}%bilder einfgen
+%\usepackage{url}%durch hyperref schon definiert
+%fr einheiten
+\usepackage{framed}
+%\usepackage{eurosym}%fuer das eurozeichen?
+%\usepackage{xspace}
+%\renewcommand{\texteuro}{\geneuronarrow\xspace}
+\usepackage{hyperref}%zum schluss
+
+
+
+%\setcounter{section}{1} %hier die gewnschte zahl fr das letzte kapitel davor...
+
+\begin{document}
+
+
+\input{theorie_wellen_fertige_teile}
+
+\clearpage
+
+\subsection{Diverse Fragen}
+\begin{framed}
+Unter welchen Vorraussetzungen kann eine Homogene ebene Welle existieren (Dämpfung außer acht lassen) \textit{(Häufigkeit: 1)}
+\end{framed}
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Wie würde man die nutzbara Bandbreite eines Hohlleitersa angeben?  \textit{(Häufigkeit: 1)}
+\end{framed}
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Wann gelten die Modalen Lösungen? \textit{(Häufigkeit: 1)}
+\end{framed}
+Quellenfreiheit, Harmonische Vorgänge (eine Frequenz), Ausbreitung in z-Richtung (d/dz = -jkz)
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Randbedingungen für Et und Ht \textit{(Häufigkeit: 1)}
+\end{framed}
+Et=0, Ht ungleich 0
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Berechne dB aus E,H \textit{(Häufigkeit: 1)}
+\end{framed}
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Berechne den Feldwellenwiderstand \textit{(Häufigkeit: 1)}
+\end{framed}
+Zw=ex/hy
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Was ist ein Dispersionsdiagram \textit{(Häufigkeit: 1)}
+\end{framed}
+$\omega(k)$ aufgetragen
+
+
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Was ist eine CUT-OFF Bedingung \textit{(Häufigkeit: 1)}
+\end{framed}
+Keine ausbreitungsfähige Mode mehr möglich!
+
+
+
+%\subsection{Diverse Fragen}
+\begin{framed}
+Was liefert die Analyse eines Wellenleiters \textit{(Häufigkeit: 1)}
+\end{framed}
+modale Lösungen -> Feldbild\\
+Randbedingungnen
+Dispersionsgleichung 
+Verluste
+
+\end{document}
