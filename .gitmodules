@@ -1,3 +1,7 @@
 [submodule "cld"]
 	path = cld
 	url = https://github.com/Painkilla/VU-389.064-Wellenausbreitung-cld.git
+[submodule "conf"]
+	path = conf
+	url = https://github.com/Painkilla/conf.git
+	branch = master
